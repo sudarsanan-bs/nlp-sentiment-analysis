@@ -2,6 +2,10 @@ import nltk.classify.util
 from nltk.classify import NaiveBayesClassifier
 from nltk.corpus import names
 
+#***************************************
+# Author: Sudarsanan B S
+#***************************************
+
 # Return positive, neutral and negative sentiment scores for a given sentence based on the defined vocabulary
 
 # Feature extraction method
