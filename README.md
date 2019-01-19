@@ -12,11 +12,11 @@ python nlp_sentiment_analysis.py
 
 sentence: 'Not a bad movie, I kind of liked it'
 
-Positive: 0.444444444444
+Positive: 44.4444444444 %
 
-Neutral: 0.333333333333
+Neutral: 33.3333333333 %
 
-Negative: 0.222222222222
+Negative: 22.2222222222 %
 
 
 # References
