@@ -45,6 +45,6 @@ for word in words:
     if classResult == 'neu':
         neu = neu + 1
 
-print('Positive: ' + str(float(pos)/len(words)))
-print('Neutral: ' + str(float(neu)/len(words)))
-print('Negative: ' + str(float(neg)/len(words)))
+print('Positive: ' + str(round(float(pos)*100/len(words),2)) + ' %')
+print('Neutral: ' + str(round(float(neu)*100/len(words),2)) + ' %')
+print('Negative: ' + str(round(float(neg)*100/len(words),2)) + ' %')
